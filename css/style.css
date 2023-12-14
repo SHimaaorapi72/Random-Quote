@@ -1,0 +1,67 @@
+body{
+margin: 0;
+padding: 0;
+
+}
+
+
+#quote{
+    background-image: url(/img/BeQw5n.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.btn{
+    background: none;
+    border: 2px solid #ffa260;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1.5em 3em;
+    color: aliceblue;
+    transition: 0.25s;
+    font-size: 20px;
+
+}
+
+.btn:hover ,
+.btn:focus {
+    border-color:#ffa260 ;
+    color: #fff;
+    box-shadow: 0 0.5em 0.5em -0.4em #ffa260 ;
+}
+.btn:hover{
+    background-color:#ffa260 ;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: Impact;
+    color: aliceblue;
+}
+
+p{
+    font-size: 35px;
+    color: aliceblue;
+    margin-inline: 60px;
+    text-align: center;
+}
+span{
+    color:#ffa260 ;
+}
+
+@media screen and (max-width: 524px){
+    h1 {
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+        
+    }
+}
+
+
+#author{
+    color:#ffa260 ;
+}
